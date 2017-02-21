@@ -1,11 +1,12 @@
 CHANGES
 *******
 
-3.3.5 (unreleased)
+3.3.7 (unreleased)
 ==================
 
-- Nothing changed yet.
-
+- Update to Bootstrap 3.3.4 [disko]
+- Test against Python 3.3, 3.4, 3.5 and 3.6 with tox and on TravisCI [disko]
+- Add a script to update from npm automatically [disko]
 
 3.3.4 (2015-04-21)
 ==================
