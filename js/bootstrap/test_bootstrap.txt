@@ -22,8 +22,9 @@ you can include the bootstrap_theme css::
 Render the inclusion::
 
   >>> from __future__ import print_function
-  >>> print(needed.render())
+  >>> from fanstatic import Inclusion
+  >>> print(Inclusion(needed).render())
   <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap.css" />
   <link rel="stylesheet" type="text/css" href="http://localhost/fanstatic/bootstrap/css/bootstrap-theme.css" />
-  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery.js"></script>
+  <script type="text/javascript" src="http://localhost/fanstatic/jquery/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="http://localhost/fanstatic/bootstrap/js/bootstrap.js"></script>

@@ -1,6 +1,12 @@
 CHANGES
 *******
 
+3.4.1 (unreleased)
+==================
+
+- Update to Bootstrap 3.4.1 [nschlemm]
+- Test against Python 3.5, 3.6, 3.7 and 3.8 with tox and on TravisCI [nschlemm]
+
 3.3.7 (unreleased)
 ==================
 
